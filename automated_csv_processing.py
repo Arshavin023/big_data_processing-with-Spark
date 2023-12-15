@@ -66,7 +66,7 @@ def main():
                                           'Trxn_Category':'pal_account_code'},inplace=True)
                 
                 output_with_C_tran_type = pd.DataFrame({
-                    'Merchant_Account_Nr': ['1022334931'],
+                    'Merchant_Account_Nr': ['8153907530'],
                     'amount': [output_with_D_tran_type['amount'].sum()],
                     'narration': ['STAMP DUTY '],
                     'tran_type': ['C'],
