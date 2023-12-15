@@ -71,7 +71,7 @@ def main():
 
                 
                 output_with_C_tran_type = pd.DataFrame({
-                    'MERCHANT BANK ACCOUNT': ['1022334931'],
+                    'MERCHANT BANK ACCOUNT': ['8152159070'],
                     'amount': [output_with_D_tran_type['amount'].sum()],
                     'narration': ['STAMP DUTY '],
                     'tran_type': ['C'],
