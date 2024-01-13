@@ -1,6 +1,5 @@
 # automated_file_processing
-In this project, CSV and EXCEL files in different directories were processed with Pandas and different business logics were applied to transactions >= 10000 naira due for stamp duty charges
-
+This code uses PySpark and Spark DataFrame to read Excel and CSV files, filter data based on the given condition, and perform the required processing. The resulting DataFrame is then written to CSV files.
 
 
 
