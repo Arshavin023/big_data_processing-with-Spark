@@ -1,6 +1,6 @@
-# Report Generation with parallel execution of Stored Procedures 
+# Processing of bank transactions from third-party channels
 ## Overview
-This repository contains a data pipeline for processing third-party transactions uploaded daily on a network shared drive.
+This repository contains a data pipeline for processing bank transactions from third-party channels uploaded daily on a network shared drive.
 
 # Table of Contents
 - [Introduction](#introduction)
@@ -10,7 +10,8 @@ This repository contains a data pipeline for processing third-party transactions
 
 
 ## Introduction <a name="introduction"></a>
-The report generation process consist of Python scripts meant for processing third-party transactions on CSV and EXCEL files, periodically uploaded to a network shared folder. Windows Task Scheduler was utilized to execute the Python scripts daily by 10:00:00am.
+The report generation process consist of Python scripts meant for processing bank transactions from third-party channels. These transactions on often uploaded periodically to network shared folder. 
+Windows Task Scheduler was utilized to execute the Python scripts daily by 10:00:00am.
 
 ## Prerequisites <a name="prerequisites"></a>
 Before running this report generation process, the following prerequisite must be meant.
